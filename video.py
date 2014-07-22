@@ -24,3 +24,10 @@ class Mp4( Video ):
     def sniff(self, filename):
         with magic.Magic(flags=magic.MAGIC_MIME_TYPE) as m:
             return m.id_filename(filename) is 'video/mp4'
+
+class Flv( Video ):
+    file_ext = "mp4"
+
+    def sniff(self, filename):
+        with magic.Magic(flags=magic.MAGIC_MIME_TYPE) as m:
+            return m.id_filename(filename) is 'video/x-flv'
