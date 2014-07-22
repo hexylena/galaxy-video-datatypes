@@ -4,13 +4,7 @@ Please feel free to submit PRs/bug reports.
 
 # Requirements
 
-Requires filemagic which is currently unused, but will probably be used for sniffing
-
-```
-pip install filemagic
-```
-
-Also requires ffmpeg for fps/resolution detection
+Requires ffmpeg for fps/resolution detection
 
 ```
 sudo apt-get install ffmpeg
