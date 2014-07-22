@@ -3,7 +3,7 @@ Video classes
 """
 
 import logging
-import magic
+#import magic
 import subprocess, re
 
 import data
