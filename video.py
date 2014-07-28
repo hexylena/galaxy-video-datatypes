@@ -3,7 +3,7 @@ Video classes
 """
 
 import logging
-#import magic
+import magic
 import subprocess, re
 
 import data
@@ -60,7 +60,7 @@ class Mp4( Video ):
     def sniff(self, filename):
         with magic.Magic(flags=magic.MAGIC_MIME_TYPE) as m:
             return m.id_filename(filename) is 'video/mp4'
-Binary.register_unsniffable_binary_ext("mp4")
+#Binary.register_unsniffable_binary_ext("mp4")
 
 class Flv( Video ):
     file_ext = "flv"
