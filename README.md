@@ -24,7 +24,7 @@ sudo apt-get install ffmpeg
 # Licence
 
 Video datatypes for Galaxy
-Copyright (C) 2014 Eric Rasche
+Copyright (C) 2014 Helena Rasche
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
